@@ -13,5 +13,5 @@ Redis DataSource Plugin for CakePHP
 
 ```sh
 cd app/Plugin
-git clone Installation Redis
+git clone git@github.com:nanapi/cakephp-redis.git Redis
 ```
