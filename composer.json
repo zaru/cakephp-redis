@@ -1,6 +1,9 @@
 {
   "name" : "nanapi/cakephp-redis",
   "type": "cakephp-plugin",
+  "extra": {
+    "installer-name" : "Redis"
+  },
   "description": "Redis DataSource Plugin for CakePHP",
   "keywords": [
     "cakephp",
