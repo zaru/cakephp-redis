@@ -31,6 +31,7 @@ class DATABASE_CONFIG {
     'datasource' => 'Redis.RedisSource',
     'host' => 'localhost',
     'port' => '6379',
+    'timeout' => 1,
   );
 
 ```

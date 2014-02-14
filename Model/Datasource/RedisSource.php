@@ -30,7 +30,7 @@ class RedisSource extends DataSource {
 
     try {
       $this->_connection = new Redis();
-      $this->_connection->connect($this->config['host'], $this->config['port']);
+      $this->_connection->connect($this->config['host'], $this->config['port'], $this->config['timeout']);
       $this->connected = true;
     } catch (Exception $e) {
       throw new MissingConnectionException(array(
